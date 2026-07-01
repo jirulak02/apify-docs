@@ -1,11 +1,11 @@
 ---
 title: Pipedrive integration
 sidebar_label: Pipedrive
-description: Connect Apify to Pipedrive to enrich organization and contact records with data from Apify Actors - without leaving Pipedrive.
+description: Connect Apify to Pipedrive to enrich organizations and contacts with data from Apify Actors, map output to Pipedrive fields, and run enrichments on demand.
 slug: /integrations/pipedrive
 ---
 
-import ThirdPartyDisclaimer from '@site/sources/\_partials/\_third-party-integration.mdx';
+import ThirdPartyDisclaimer from '@site/sources/_partials/_third-party-integration.mdx';
 
 [Pipedrive](https://www.pipedrive.com/) is a sales CRM that helps teams manage deals, organizations, and contacts. With the Apify integration, you can enrich your organizations and contacts with fresh data from the [Contact Details Scraper](https://apify.com/vdrmota/contact-info-scraper) Actor, map Actor output to Pipedrive fields, and run enrichments on demand or automatically - all without leaving Pipedrive.
 
@@ -37,7 +37,7 @@ Your Apify account is connected during installation, so the integration can run 
 
 The **Setup and installation** tab shows a **Connected** status when your Apify account is linked. If it isn't connected, click **Authorize** and complete the Apify OAuth flow. To revoke access, click **Disconnect Apify account**. Disconnecting stops all Apify-powered enrichments until you reconnect the account.
 
-![The Setup and installation tab of the Apify for Pipedrive settings page showing the connection status](../images/pipedrive/settings-connection.png)
+![The Setup and installation tab of the Apify for Pipedrive settings page showing the connection status](../images/pipedrive/settings-connection.webp)
 
 ## Where to find the integration in Pipedrive
 
@@ -47,9 +47,9 @@ The app adds several surfaces inside Pipedrive where you manage and run enrichme
 - **Organization detail**: the Apify enrichment panel shows the latest enrichment status and lets you create or run an enrichment for that organization.
 - **Settings page**: manage your Apify connection and browse the **Description**, **Interactive features**, **Setup and installation**, and **Resources** tabs.
 
-![The Apify enrichment entrypoint in the organization list three-dots menu](../images/pipedrive/organization-list-entrypoint.png)
+![The Apify enrichment entrypoint in the organization list three-dots menu](../images/pipedrive/organization-list-entrypoint.webp)
 
-![The Apify enrichment panel in the Pipedrive organization detail view](../images/pipedrive/organization-detail-panel.png)
+![The Apify enrichment panel in the Pipedrive organization detail view](../images/pipedrive/organization-detail-panel.webp)
 
 ## Create an enrichment configuration
 
@@ -70,7 +70,7 @@ Configure what the enrichment collects:
 
 For more details you can read the [Contact Details Scraper](https://apify.com/vdrmota/contact-info-scraper) Actor documentation.
 
-![The Actor configuration step of the enrichment wizard](../images/pipedrive/wizard-configuration.png)
+![The Actor configuration step of the enrichment wizard](../images/pipedrive/wizard-configuration.webp)
 
 ### Step 2: Map fields
 
@@ -78,7 +78,7 @@ Map the fields from the Actor output to your Pipedrive fields. Each mapping row 
 
 You need at least one fully configured mapping row to continue. Rows that are not fully filled are discarded.
 
-![The field mapping step of the enrichment wizard showing Apify fields mapped to Pipedrive fields](../images/pipedrive/wizard-field-mapping.png)
+![The field mapping step of the enrichment wizard showing Apify fields mapped to Pipedrive fields](../images/pipedrive/wizard-field-mapping.webp)
 
 ### Step 3: Review and save
 
@@ -90,7 +90,7 @@ Contact enrichment starts from an organization's website URL. Organizations with
 
 :::
 
-![The review step of the enrichment wizard summarizing the configuration before saving](../images/pipedrive/wizard-review.png)
+![The review step of the enrichment wizard summarizing the configuration before saving](../images/pipedrive/wizard-review.webp)
 
 ## Run enrichments
 
@@ -110,7 +110,7 @@ Each run reports its status and a summary of what changed:
 
 You can review past runs in the enrichment history from the organization list modal, and open a single run to see its configuration, results, and enrichment data.
 
-![The enrichment settings and history modal showing past runs with their status and results summary](../images/pipedrive/organization-list-modal.png)
+![The enrichment settings and history modal showing past runs with their status and results summary](../images/pipedrive/organization-list-modal.webp)
 
 ## Limitations
 
